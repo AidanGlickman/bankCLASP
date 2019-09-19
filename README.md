@@ -1,6 +1,5 @@
 # bankCLASP v0.1
-## COLLEGIATE LEVEL ATHLETE SUCCESS PROJECTION
-
+Collegiate-Level Athlete's Success Projections (bankCLASP) will serve as the Sports Industry's first accurate method of projecting the potential NFL success of current college football players, as well as accurately representing the contributions made by players to their team (or their opponents). 
 
 ### Languages and Tools
 * Web Frontend in Vue
