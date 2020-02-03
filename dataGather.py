@@ -37,7 +37,7 @@ def getNcaafPlayer(nflId):
 
 
 def writePlayer(player, outputDir):
-    """Writes out the data for a given player"""
+    """Writes out the data for a given player to outputDir"""
     try:
         if player["nfl"].dataframe is None or player["ncaaf"].dataframe is None:
             raise Exception("No dataframe")
@@ -57,6 +57,7 @@ def writePlayer(player, outputDir):
 
 
 def processTeam(nflTeam, outputDir):
+    """Processes each player on a given nflTeam, outputs to outputDir"""
     roster = nflTeam.roster
     logging.info("Processing roster for team %s" % nflTeam.name)
     player = {}
