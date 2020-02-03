@@ -5,7 +5,7 @@ Collegiate-Level Athlete's Success Projections (bankCLASP) will serve as the Spo
 ## Languages and Tools
 
 - Web Frontend in [Vue](https://vuejs.org/)
-- Data in Python Pickle format
+- Data in CSVs
 - Data Collection with Python and [BeautifulSoup4](https://pypi.org/project/beautifulsoup4/)
 - Data processing in [SciKit Learn](https://scikit-learn.org/)
 

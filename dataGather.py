@@ -45,11 +45,11 @@ def writePlayer(player, outputDir):
 
         os.makedirs(playerOut)
 
-        path = os.path.join(playerOut, "nfl.pkl")
-        player["nfl"].dataframe.to_pickle(path)
+        path = os.path.join(playerOut, "nfl.csv")
+        player["nfl"].dataframe.to_csv(path)
 
-        path = os.path.join(playerOut, "ncaaf.pkl")
-        player["ncaaf"].dataframe.to_pickle(path)
+        path = os.path.join(playerOut, "ncaaf.csv")
+        player["ncaaf"].dataframe.to_csv(path)
 
     except:
         logging.warning("No dataframe for player %s. Skipping..." %
