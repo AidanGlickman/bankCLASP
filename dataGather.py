@@ -5,7 +5,6 @@ from sportsreference.ncaaf.teams import Teams as ncaafTeams
 from sportsreference.nfl.roster import Player as nflPlayer
 from sportsreference.ncaaf.roster import Player as ncaafPlayer
 from bs4 import BeautifulSoup
-from urllib.request import urlopen as req
 import re
 import requests
 import pandas as pd
@@ -16,14 +15,13 @@ import os
 
 
 def getNcaafPlayer(nflId):
+    """Returns an ncaafPlayer object by scraping an nflPlayer's PFR page"""
     url = "https://www.pro-football-reference.com/players/" + \
         nflId[0] + "/" + nflId + ".htm"
 
-    uClient = req(url)
-    page_html = uClient.read()
-    uClient.close()
+    page = requests.get(url).text
 
-    soup = BeautifulSoup(page_html, "html.parser")
+    soup = BeautifulSoup(page, "html.parser")
 
     try:
         linkText = soup.find(
@@ -38,34 +36,37 @@ def getNcaafPlayer(nflId):
         return None
 
 
-def writePlayer(playerNfl, playerNcaaf, outputDir):
+def writePlayer(player, outputDir):
+    """Writes out the data for a given player"""
     try:
-        if playerNfl.dataframe is None or playerNcaaf.dataframe is None:
+        if player["nfl"].dataframe is None or player["ncaaf"].dataframe is None:
             raise Exception("No dataframe")
-        playerOut = os.path.join(outputDir, playerNfl.player_id)
+        playerOut = os.path.join(outputDir, player["nfl"].player_id)
 
         os.makedirs(playerOut)
 
         path = os.path.join(playerOut, "nfl.pkl")
-        playerNfl.dataframe.to_pickle(path)
+        player["nfl"].dataframe.to_pickle(path)
 
         path = os.path.join(playerOut, "ncaaf.pkl")
-        playerNcaaf.dataframe.to_pickle(path)
+        player["ncaaf"].dataframe.to_pickle(path)
 
     except:
         logging.warning("No dataframe for player %s. Skipping..." %
-                        playerNfl.name)
+                        player["nfl"].name)
 
 
 def processTeam(nflTeam, outputDir):
     roster = nflTeam.roster
     logging.info("Processing roster for team %s" % nflTeam.name)
+    player = {}
     for playerNfl in roster.players:
-        nflId = playerNfl.player_id
-        logging.info("Processing player %s" % playerNfl.name)
-        playerNcaaf = getNcaafPlayer(nflId)
-        if playerNcaaf is not None:
-            writePlayer(playerNfl, playerNcaaf, outputDir)
+        player["nfl"] = playerNfl
+        nflId = player["nfl"].player_id
+        logging.info("Processing player %s" % player["nfl"].name)
+        player["ncaaf"] = getNcaafPlayer(nflId)
+        if player["ncaaf"] is not None:
+            writePlayer(player, outputDir)
 
 
 def main():
