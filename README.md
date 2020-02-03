@@ -1,20 +1,23 @@
 # bankCLASP v0.1
-Collegiate-Level Athlete's Success Projections (bankCLASP) will serve as the Sports Industry's first accurate method of projecting the potential NFL success of current college football players, as well as accurately representing the contributions made by players to their team (or their opponents). 
 
-### Languages and Tools
-* Web Frontend in Vue
-* Databasing with SQLite3
-* Data Collection with Python and BeautifulSoup4
-* Data Processing with numPy
+Collegiate-Level Athlete's Success Projections (bankCLASP) will serve as the Sports Industry's first accurate method of projecting the potential NFL success of current college football players.
 
-### Sources
-* Pro Football Reference
-  * NFL Player Stats
-* Sports-Reference.com
-  * College Football Stats
+## Languages and Tools
 
-### Contributors: 
-* Aidan Glickman - Disruptor-in-Chief and Visionary-at-Large
-* Kris Pursianen - Resident Sports Expert
-* Nathaniel Jeffries - Vice President of Fun and Chief of Janitorial Research
-* Brandon Schein - Chief of Keef
+- Web Frontend in [Vue](https://vuejs.org/)
+- Data in Python Pickle format
+- Data Collection with Python and [BeautifulSoup4](https://pypi.org/project/beautifulsoup4/)
+- Data processing in [SciKit Learn](https://scikit-learn.org/)
+
+## Sources
+
+- Sports-Reference.com
+  - [Python API](https://pypi.org/project/sportsreference/)
+  - Used for player data
+
+## Contributors
+
+- Aidan Glickman - Disruptor-in-Chief and Visionary-at-Large
+- Kris Pursianen - Resident Sports Expert
+- Nathaniel Jeffries - Vice President of Fun and Chief of Janitorial Research
+- Brandon Schein - Chief of Keef
