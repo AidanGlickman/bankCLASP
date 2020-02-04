@@ -75,7 +75,7 @@ def main():
     if not os.path.exists("logs"):
         os.makedirs("logs")
     logging.basicConfig(filename="logs/%s.log" %
-                        timestamp, format='%(asctime)s %(levelname)-8s %(message)s', datefmt='%Y-%m-%d %H:%M:%S', level=logging.DEBUG)
+                        timestamp, format='%(asctime)s %(levelname)-8s %(message)s', datefmt='%Y-%m-%d %H:%M:%S', level=logging.INFO)
     logging.info("Began running data gatherer at %s" % timestamp)
     outputDir = os.path.join("out", timestamp)
     os.makedirs(outputDir)
