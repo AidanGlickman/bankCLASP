@@ -12,6 +12,7 @@ import numpy as np
 import logging
 import datetime
 import os
+from progress.bar import Bar
 
 
 def getNcaafPlayer(nflId):
@@ -61,13 +62,16 @@ def processTeam(nflTeam, outputDir):
     roster = nflTeam.roster
     logging.info("Processing roster for team %s" % nflTeam.name)
     player = {}
-    for playerNfl in roster.players:
-        player["nfl"] = playerNfl
-        nflId = player["nfl"].player_id
-        logging.info("Processing player %s" % player["nfl"].name)
-        player["ncaaf"] = getNcaafPlayer(nflId)
-        if player["ncaaf"] is not None:
-            writePlayer(player, outputDir)
+    with Bar(nflTeam.name, max=len(roster.players)) as bar:
+        for playerNfl in roster.players:
+            player["nfl"] = playerNfl
+            nflId = player["nfl"].player_id
+            logging.info("Processing player %s" % player["nfl"].name)
+            player["ncaaf"] = getNcaafPlayer(nflId)
+            if player["ncaaf"] is not None:
+                writePlayer(player, outputDir)
+            bar.next()
+        bar.finish()
 
 
 def main():
@@ -82,8 +86,12 @@ def main():
     nflTeamList = nflTeams()
     logging.info("Successfully fetched NFL Team list from API")
 
-    for nflTeam in nflTeamList:
-        processTeam(nflTeam, outputDir)
+    with Bar("All Teams", max=len(nflTeamList)) as bar:
+        for nflTeam in nflTeamList:
+            processTeam(nflTeam, outputDir)
+            bar.next()
+        bar.finish()
+    logging.info("Finished processing all teams")
 
 
 if __name__ == "__main__":

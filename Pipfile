@@ -11,6 +11,7 @@ autopep8 = "*"
 sportsreference = "*"
 bs4 = "*"
 sklearn = "*"
+progress = "*"
 
 [requires]
 python_version = "3.8"
