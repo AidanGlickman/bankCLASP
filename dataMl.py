@@ -25,7 +25,7 @@ def playerToDataPoint(playerPath):
 
 def findNearestPlayers(player, dataset, numPlayers=5):
     """Return numPlayers players from dataset with highest cosine similarity to player"""
-    pass
+    return sklearn.metrics.pairwise.cosine_similarity(dataset, player).sort()[:numPlayers]
 
 
 def main():
