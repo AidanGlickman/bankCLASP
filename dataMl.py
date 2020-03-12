@@ -14,9 +14,6 @@ import numpy as np
 
 PLAYER_DIR = "./pairedPlayers"
 
-if not os.path.exists(PLAYER_DIR):
-    logging.critical("Player Directory doesn't exist. Please reconfigure it.")
-
 
 def playerToDataPoint(playerPath):
     data = pd.read_csv(playerPath)
@@ -29,7 +26,10 @@ def findNearestPlayers(player, dataset, numPlayers=5):
 
 
 def main():
-    playerToDataPoint("out/2020-02-03-17:18:44/AndrMa00/ncaaf.pkl")
+    if not os.path.exists(PLAYER_DIR):
+        logging.critical(
+            "Player Directory doesn't exist. Please reconfigure it.")
+    playerToDataPoint(os.path.join(PLAYER_DIR, "AbouOd00", "ncaaf.csv"))
 
 
 if __name__ == "__main__":
