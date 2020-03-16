@@ -5,7 +5,6 @@ import logging
 import pandas as pd
 import numpy as np
 
-
 # scaler = sklearn.preprocessing.StandardScaler()
 # scaler.fit(data_train)
 # data_train = scaler.transform(data_train)
@@ -15,9 +14,8 @@ import numpy as np
 PLAYER_DIR = "./pairedPlayers"
 
 
-def playerToDataPoint(playerPath):
+def fileToDataPoint(playerPath):
     data = pd.read_csv(playerPath)
-    print(data)
 
 
 def findNearestPlayers(player, dataset, numPlayers=5):
@@ -25,11 +23,22 @@ def findNearestPlayers(player, dataset, numPlayers=5):
     return sklearn.metrics.pairwise.cosine_similarity(dataset, player).sort()[:numPlayers]
 
 
+def loadNcaafDataSet():
+    rawPlayers = []
+    directory = os.fsencode(PLAYER_DIR)
+    for file in os.listdir(directory):
+        filename = os.fsdecode(file)
+        rawPlayers.append(fileToDataPoint(
+            os.path.join(PLAYER_DIR, filename, "ncaaf.csv")))
+        print(rawPlayers)
+
+
 def main():
     if not os.path.exists(PLAYER_DIR):
         logging.critical(
             "Player Directory doesn't exist. Please reconfigure it.")
-    playerToDataPoint(os.path.join(PLAYER_DIR, "AbouOd00", "ncaaf.csv"))
+    # playerToDataPoint(os.path.join(PLAYER_DIR, "AbouOd00", "ncaaf.csv"))
+    loadNcaafDataSet()
 
 
 if __name__ == "__main__":
