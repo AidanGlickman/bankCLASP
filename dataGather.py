@@ -76,12 +76,11 @@ def processTeam(nflTeam, outputDir):
 
 def main():
     timestamp = datetime.datetime.utcnow().strftime("%Y-%m-%d-%H:%M:%S")
-    if not os.path.exists("logs"):
-        os.makedirs("logs")
-    logging.basicConfig(filename="logs/%s.log" %
-                        timestamp, format='%(asctime)s %(levelname)-8s %(message)s', datefmt='%Y-%m-%d %H:%M:%S', level=logging.INFO)
+    os.makedirs(os.path.join(os.curdir, "logs", "gather"))
+    logging.basicConfig(filename=os.path.join("logs", "gather", timestamp + ".log"),
+                        format='%(asctime)s %(levelname)-8s %(message)s', datefmt='%Y-%m-%d %H:%M:%S', level=logging.INFO)
     logging.info("Began running data gatherer at %s" % timestamp)
-    outputDir = os.path.join("out", timestamp)
+    outputDir = os.path.join(os.curdir, "out", "gather", timestamp)
     os.makedirs(outputDir)
     nflTeamList = nflTeams()
     logging.info("Successfully fetched NFL Team list from API")
