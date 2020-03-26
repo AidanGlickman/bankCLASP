@@ -67,7 +67,7 @@ def processTeam(nflTeam, outputDir):
             player["nfl"] = playerNfl
             nflId = player["nfl"].player_id
             logging.info("Processing player %s" % player["nfl"].name)
-            player["ncaaf"] = getNcaafPlayer(nflId)
+            player["ncaaf"] = getNcaafPlayer(nflId)  # DOESNT WORK-- API IS BAD
             if player["ncaaf"] is not None:
                 writePlayer(player, outputDir)
             bar.next()
@@ -76,12 +76,12 @@ def processTeam(nflTeam, outputDir):
 
 def main():
     timestamp = datetime.datetime.utcnow().strftime("%Y-%m-%d-%H:%M:%S")
-    os.makedirs(os.path.join(os.curdir, "logs", "gather"))
+    os.makedirs(os.path.join(os.curdir, "logs", "gather"), exist_ok=True)
     logging.basicConfig(filename=os.path.join("logs", "gather", timestamp + ".log"),
                         format='%(asctime)s %(levelname)-8s %(message)s', datefmt='%Y-%m-%d %H:%M:%S', level=logging.INFO)
     logging.info("Began running data gatherer at %s" % timestamp)
     outputDir = os.path.join(os.curdir, "out", "gather", timestamp)
-    os.makedirs(outputDir)
+    os.makedirs(outputDir, exist_ok=True)
     nflTeamList = nflTeams()
     logging.info("Successfully fetched NFL Team list from API")
 
