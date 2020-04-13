@@ -1,6 +1,6 @@
 ,adjusted_yards_per_attempt,assists_on_tackles,completed_passes,extra_points_made,field_goals_made,fumbles_forced,fumbles_recovered,fumbles_recovered_for_touchdown,games,height,interceptions,interceptions_returned_for_touchdown,interceptions_thrown,kickoff_return_touchdowns,name,other_touchdowns,pass_attempts,passes_defended,passing_completion,passing_touchdowns,passing_yards,passing_yards_per_attempt,player_id,plays_from_scrimmage,points,position,punt_return_touchdowns,quarterback_rating,receiving_touchdowns,receiving_yards,receiving_yards_per_reception,receptions,rush_attempts,rush_touchdowns,rush_yards,rush_yards_per_attempt,rushing_and_receiving_touchdowns,sacks,safeties,season,solo_tackles,tackles_for_loss,team_abbreviation,total_tackles,total_touchdowns,two_point_conversions,weight,yards_from_scrimmage,yards_from_scrimmage_per_play,yards_recovered_from_fumble,yards_returned_from_interceptions,yards_returned_per_interception,year
-2009,,2,,,,,,,10.0,6-4,0,0,,,Jack Doyle,,,,,,,,jack-doyle-1,,6,TE,,,,,,,,,,,,0.0,,2009,0,0.0,Western Kentucky,2,1,,260,,,,0,,FR
-2010,,0,,,,,,,7.0,6-4,0,0,,,Jack Doyle,,,,,,,,jack-doyle-1,,12,TE,,,,,,,,,,,,0.0,,2010,1,0.0,Western Kentucky,1,2,,260,,,,0,,SO
-2011,,0,,,,,,,12.0,6-4,0,0,,,Jack Doyle,,,,,,,,jack-doyle-1,,0,TE,,,,,,,,,,,,0.0,,2011,2,0.0,Western Kentucky,2,0,,260,,,,0,,JR
-2012,,0,,,,,,,13.0,6-4,0,0,,,Jack Doyle,,,,,,,,jack-doyle-1,,30,TE,,,,,,,,,,,,0.0,,2012,1,0.0,Western Kentucky,1,5,,260,,,,0,,SR
-Career,,2,,,,,,,,6-4,0,0,,,Jack Doyle,,,,,,,,jack-doyle-1,,48,TE,,,,,,,,,,,,0.0,,Career,4,0.0,Western Kentucky,6,8,,260,,,,0,,
+2009,,2,,,,,,,10.0,6-4,0,0,,,Jack Doyle,,,,,,,,jack-doyle-1,37,6,TE,,,1,365,9.9,37,,,,,1,0.0,,2009,0,0.0,Western Kentucky,2,1,,260,365,9.9,,0,,FR
+2010,,0,,,,,,,7.0,6-4,0,0,,,Jack Doyle,,,,,,,,jack-doyle-1,20,12,TE,,,2,224,11.2,20,,,,,2,0.0,,2010,1,0.0,Western Kentucky,1,2,,260,224,11.2,,0,,SO
+2011,,0,,,,,,,12.0,6-4,0,0,,,Jack Doyle,,,,,,,,jack-doyle-1,52,0,TE,,,0,614,11.8,52,,,,,0,0.0,,2011,2,0.0,Western Kentucky,2,0,,260,614,11.8,,0,,JR
+2012,,0,,,,,,,13.0,6-4,0,0,,,Jack Doyle,,,,,,,,jack-doyle-1,54,30,TE,,,5,566,10.7,53,1.0,0.0,0.0,0.0,5,0.0,,2012,1,0.0,Western Kentucky,1,5,,260,566,10.5,,0,,SR
+Career,,2,,,,,,,,6-4,0,0,,,Jack Doyle,,,,,,,,jack-doyle-1,163,48,TE,,,8,1769,10.9,162,1.0,0.0,0.0,0.0,8,0.0,,Career,4,0.0,Western Kentucky,6,8,,260,1769,10.9,,0,,

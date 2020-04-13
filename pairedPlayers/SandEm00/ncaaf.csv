@@ -1,6 +1,6 @@
 ,adjusted_yards_per_attempt,assists_on_tackles,completed_passes,extra_points_made,field_goals_made,fumbles_forced,fumbles_recovered,fumbles_recovered_for_touchdown,games,height,interceptions,interceptions_returned_for_touchdown,interceptions_thrown,kickoff_return_touchdowns,name,other_touchdowns,pass_attempts,passes_defended,passing_completion,passing_touchdowns,passing_yards,passing_yards_per_attempt,player_id,plays_from_scrimmage,points,position,punt_return_touchdowns,quarterback_rating,receiving_touchdowns,receiving_yards,receiving_yards_per_reception,receptions,rush_attempts,rush_touchdowns,rush_yards,rush_yards_per_attempt,rushing_and_receiving_touchdowns,sacks,safeties,season,solo_tackles,tackles_for_loss,team_abbreviation,total_tackles,total_touchdowns,two_point_conversions,weight,yards_from_scrimmage,yards_from_scrimmage_per_play,yards_recovered_from_fumble,yards_returned_from_interceptions,yards_returned_per_interception,year
-2006,,0,,,,,,,12.0,,0,0,,0.0,Emmanuel Sanders,,,,,,,,emmanuel-sanders-1,,54,WR,,,,,,,,,,,,0.0,,2006,5,0.0,SMU,5,9,,,,,,0,,FR
-2007,,0,,,,,,,12.0,,0,0,,,Emmanuel Sanders,,,,,,,,emmanuel-sanders-1,,54,WR,0.0,,,,,,,,,,,0.0,,2007,1,0.0,SMU,1,9,,,,,,0,,SO
-2008,,0,,,,,,,10.0,,0,0,,0.0,Emmanuel Sanders,,,,,,,,emmanuel-sanders-1,,54,WR,0.0,,,,,,,,,,,0.0,,2008,4,0.0,SMU,4,9,,,,,,0,,JR
-2009,,0,,,,,,,13.0,,0,0,,,Emmanuel Sanders,,,,,,,,emmanuel-sanders-1,,48,WR,1.0,,,,,,,,,,,0.0,,2009,2,0.0,SMU,2,8,,,,,,0,,SR
-Career,,0,,,,,,,,,0,0,,0.0,Emmanuel Sanders,,,,,,,,emmanuel-sanders-1,,210,WR,1.0,,,,,,,,,,,0.0,,Career,12,0.0,SMU,12,35,,,,,,0,,
+2006,,0,,,,,,,12.0,,0,0,,0.0,Emmanuel Sanders,,,,,,,,emmanuel-sanders-1,48,54,WR,,,9,605,13.2,46,2.0,0.0,6.0,3.0,9,0.0,,2006,5,0.0,SMU,5,9,,,611,12.7,,0,,FR
+2007,,0,,,,,,,12.0,,0,0,,,Emmanuel Sanders,,,,,,,,emmanuel-sanders-1,80,54,WR,0.0,,9,889,12.0,74,6.0,0.0,28.0,4.7,9,0.0,,2007,1,0.0,SMU,1,9,,,917,11.5,,0,,SO
+2008,,0,,,,,,,10.0,,0,0,,0.0,Emmanuel Sanders,,,,,,,,emmanuel-sanders-1,67,54,WR,0.0,,9,958,14.3,67,,,,,9,0.0,,2008,4,0.0,SMU,4,9,,,958,14.3,,0,,JR
+2009,,0,,,,,,,13.0,,0,0,,,Emmanuel Sanders,,,,,,,,emmanuel-sanders-1,99,48,WR,1.0,,7,1339,13.7,98,1.0,0.0,6.0,6.0,7,0.0,,2009,2,0.0,SMU,2,8,,,1345,13.6,,0,,SR
+Career,,0,,,,,,,,,0,0,,0.0,Emmanuel Sanders,,,,,,,,emmanuel-sanders-1,294,210,WR,1.0,,34,3791,13.3,285,9.0,0.0,40.0,4.4,34,0.0,,Career,12,0.0,SMU,12,35,,,3831,13.0,,0,,

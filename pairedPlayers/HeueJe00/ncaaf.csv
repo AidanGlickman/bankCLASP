@@ -1,6 +1,6 @@
 ,adjusted_yards_per_attempt,assists_on_tackles,completed_passes,extra_points_made,field_goals_made,fumbles_forced,fumbles_recovered,fumbles_recovered_for_touchdown,games,height,interceptions,interceptions_returned_for_touchdown,interceptions_thrown,kickoff_return_touchdowns,name,other_touchdowns,pass_attempts,passes_defended,passing_completion,passing_touchdowns,passing_yards,passing_yards_per_attempt,player_id,plays_from_scrimmage,points,position,punt_return_touchdowns,quarterback_rating,receiving_touchdowns,receiving_yards,receiving_yards_per_reception,receptions,rush_attempts,rush_touchdowns,rush_yards,rush_yards_per_attempt,rushing_and_receiving_touchdowns,sacks,safeties,season,solo_tackles,tackles_for_loss,team_abbreviation,total_tackles,total_touchdowns,two_point_conversions,weight,yards_from_scrimmage,yards_from_scrimmage_per_play,yards_recovered_from_fumble,yards_returned_from_interceptions,yards_returned_per_interception,year
-2011,,,,,,,,,11.0,6-5,,,,,Jeff Heuerman,,,,,,,,jeff-heuerman-1,,0,TE,,,,,,,,,,,,,,2011,,,Ohio State,,0,,255,,,,,,FR
-2012,,,,,,,,,12.0,6-5,,,,0.0,Jeff Heuerman,,,,,,,,jeff-heuerman-1,,6,TE,,,,,,,,,,,,,,2012,,,Ohio State,,1,,255,,,,,,SO
-2013,,,,0.0,0.0,,,,10.0,6-5,,,,0.0,Jeff Heuerman,,,,,,,,jeff-heuerman-1,,24,TE,0.0,,,,,,,,,,,,,2013,,,Ohio State,,4,,255,,,,,,JR
-2014,,,,0.0,0.0,,,,8.0,6-5,,,,0.0,Jeff Heuerman,,,,,,,,jeff-heuerman-1,,12,TE,0.0,,,,,,,,,,,,,2014,,,Ohio State,,2,,255,,,,,,SR
-Career,,,,0.0,0.0,,,,,6-5,,,,0.0,Jeff Heuerman,,,,,,,,jeff-heuerman-1,,42,TE,0.0,,,,,,,,,,,,,Career,,,Ohio State,,7,,255,,,,,,
+2011,,,,,,,,,11.0,6-5,,,,,Jeff Heuerman,,,,,,,,jeff-heuerman-1,1,0,TE,,,0,25,25.0,1,,,,,0,,,2011,,,Ohio State,,0,,255,25,25.0,,,,FR
+2012,,,,,,,,,12.0,6-5,,,,0.0,Jeff Heuerman,,,,,,,,jeff-heuerman-1,8,6,TE,,,1,94,11.8,8,,,,,1,,,2012,,,Ohio State,,1,,255,94,11.8,,,,SO
+2013,,,,0.0,0.0,,,,10.0,6-5,,,,0.0,Jeff Heuerman,,,,,,,,jeff-heuerman-1,27,24,TE,0.0,,4,466,17.9,26,1.0,0.0,6.0,6.0,4,,,2013,,,Ohio State,,4,,255,472,17.5,,,,JR
+2014,,,,0.0,0.0,,,,8.0,6-5,,,,0.0,Jeff Heuerman,,,,,,,,jeff-heuerman-1,17,12,TE,0.0,,2,207,12.2,17,0.0,0.0,0.0,,2,,,2014,,,Ohio State,,2,,255,207,12.2,,,,SR
+Career,,,,0.0,0.0,,,,,6-5,,,,0.0,Jeff Heuerman,,,,,,,,jeff-heuerman-1,53,42,TE,0.0,,7,792,15.2,52,1.0,0.0,6.0,6.0,7,,,Career,,,Ohio State,,7,,255,798,15.1,,,,

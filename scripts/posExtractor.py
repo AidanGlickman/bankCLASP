@@ -14,7 +14,7 @@ def extractPos(file, globalStats):
         positions = {}
         for row in reader:
             positions[row["position"]] = set(filter(
-                lambda x: row[x] != "", reader.fieldnames)).difference(globalStats)
+                lambda x: str(row[x]) not in ["", "0", "0.0"], reader.fieldnames)).difference(globalStats)
         return positions
 
 
@@ -50,11 +50,13 @@ def main():
         logging.info("Reading player info from %s" % playerPath)
         for pos in playerPositions.keys():
             logging.info("Checking position %s " % pos)
-            print(pos, parsedPos, playerPositions[pos])
-            input()
             if pos in parsedPos.keys():
-                parsedPos[pos].intersection_update(playerPositions[pos])
+                pass
+                #parsedPos[pos].intersection_update(playerPositions[pos])
             else:
+                print(playerPath, pos)
+                if(input() == "n"):
+                    continue
                 parsedPos[pos] = playerPositions[pos]
         logging.info("Finished checking all players. Dumping...")
         for pos in parsedPos.keys():
