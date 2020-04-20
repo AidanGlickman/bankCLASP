@@ -130,3 +130,5 @@ dmypy.json
 
 logs/
 out/
+
+scripts/randomTest.py
