@@ -21,3 +21,4 @@ Collegiate-Level Athlete's Success Projections (bankCLASP) will serve as the Spo
 - Kris Pursianen - Resident Sports Expert
 - Nathaniel Jeffries - Vice President of Fun and Chief of Janitorial Research
 - Brandon Schein - Chief of Keef
+- Anthony Alban - Assisant to the Administrative Assisantant
