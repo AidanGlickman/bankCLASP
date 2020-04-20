@@ -1,0 +1,11 @@
+{
+    "players": [
+        {
+            "id": "first-last-1",
+            "name": "First Last",
+            "school": "College University",
+            "position": "LB",
+            "top5": ["Name 1", "Name 2", "Name 3", "Name 4", "Name 5"]
+        }
+    ]
+}
