@@ -22,7 +22,7 @@
 
     body {
         margin: 0;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Courier New', Courier, monospace;
     }
 
     .topnav {
@@ -37,7 +37,8 @@
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
-        font-size: 17px;
+        font-family: 'Courier New', Courier, monospace;
+
     }
 
     .topnav a:hover {
