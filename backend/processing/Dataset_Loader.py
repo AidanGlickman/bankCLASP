@@ -33,7 +33,7 @@ class Dataset_Loader:
         player_dat.drop(player_dat.index[-1], axis=0, inplace=True)
         for pos in player_dat['position'].unique():
             # Kickers and Punters provide errors, and people with no position aren't useful
-            if pos in ["P", "K", "PK", np.nan]:
+            if pos in ["P", "K", "PK", "UT", np.nan]:
                 continue
             player_pos = player_dat.loc[player_dat['position'] == pos]
             if pos not in self.by_position.keys():
@@ -62,4 +62,4 @@ class Dataset_Loader:
 
 if __name__ == "__main__":
     loader = Dataset_Loader()
-    print(loader.load_dataset("QB")[1])
+    print(loader.load_dataset("QB")[0].info())
