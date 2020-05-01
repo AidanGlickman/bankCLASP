@@ -7,6 +7,8 @@ import datetime
 
 class Dataset_Loader:
     datasets = {}
+    position_filter = {'HB': 'RB', 'FB': 'RB', 'NT': 'DT',
+                       'SB': 'OL', 'T': 'OL', 'C': 'OL', 'G': 'OL', 'LS': 'S'}
 
     def load_dataset(self, position, drop_unlabeled=True):
         '''
@@ -25,6 +27,11 @@ class Dataset_Loader:
         num = positionPlayer.sum(axis=0, numeric_only=True).to_frame().T
         return num.join(non_num)
 
+    def cleanPosition(self, old_pos):
+        if old_pos in self.position_filter.keys():
+            return self.position_filter[old_pos]
+        return old_pos
+
     def loadPlayer(self, player_path):
         '''
         loads a player and returns a dict giving his aggregated stats by position
@@ -32,8 +39,10 @@ class Dataset_Loader:
         player_dat = pd.read_csv(player_path)
         # get rid of the career row
         player_dat.drop(player_dat.index[-1], axis=0, inplace=True)
+
         player_by_pos = {}
         for pos in player_dat['position'].unique():
+            pos = self.cleanPosition(pos)
             # Kickers and Punters provide errors, and people with no position aren't useful
             if pos in ["P", "K", "PK", "UT", np.nan]:
                 continue
