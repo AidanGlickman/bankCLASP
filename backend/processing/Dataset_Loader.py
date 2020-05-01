@@ -10,14 +10,11 @@ class Dataset_Loader:
     position_filter = {'HB': 'RB', 'FB': 'RB', 'NT': 'DT',
                        'SB': 'OL', 'T': 'OL', 'C': 'OL', 'G': 'OL', 'LS': 'S'}
 
-    def load_dataset(self, position, drop_unlabeled=True):
+    def load_dataset(self, position):
         '''
         returns a dataframe for a given position to be used as a dataset
         '''
-        position_data = self.by_position[position]
-        X = pd.concat(position_data, axis=0)
-        X.dropna(axis=0, how='any', inplace=True)
-        return X
+        return self.datasets[position]
 
     def aggregateStats(self, positionPlayer):
         '''
@@ -67,10 +64,16 @@ class Dataset_Loader:
                 if pos not in by_position.keys():
                     by_position[pos] = []
                 by_position[pos].append(player[pos])
-        self.by_position = by_position
+        for pos in by_position.keys():
+            position_data = by_position[pos]
+            X = pd.concat(position_data, axis=0, ignore_index=True)
+            X.dropna(axis=0, how='any', inplace=True)
+            self.datasets[pos] = X
 
     def from_file(self):
-        pass
+        for filename in os.listdir(self.dataset_path):
+            with open(os.path.join(self.dataset_path, filename)) as posSet:
+                self.datasets[filename.split('.')[0]] = pd.read_csv(posSet)
 
     def read_applicables(self, applicable_path):
         applicables = {}
@@ -83,13 +86,11 @@ class Dataset_Loader:
 
     def dump_datasets(self, out_path):
         os.makedirs(out_path, exist_ok=True)
-        print("TEST")
-        for position in self.by_position.keys():
-            print(position)
+        for position in self.datasets.keys():
             self.load_dataset(position).to_csv(
                 os.path.join(out_path, position + '.csv'))
 
-    def __init__(self, method='gathered', dump=False, applicable_path=os.path.join('applicable'), players_path=os.path.join('pairedPlayers'), dataset_path=os.path.join('datasets'), out_path=os.path.join('out', 'datasets', datetime.datetime.utcnow().strftime("%Y-%m-%d-%H:%M:%S"))):
+    def __init__(self, method='gathered', dump=False, applicable_path=os.path.join('applicable'), players_path=os.path.join('pairedPlayers'), dataset_path=os.path.join('posDatasets'), out_path=os.path.join('out', 'datasets', datetime.datetime.utcnow().strftime("%Y-%m-%d-%H:%M:%S"))):
         self.method = method
         if self.method == 'gathered':
             self.applicables = self.read_applicables(applicable_path)

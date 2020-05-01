@@ -1,0 +1,92 @@
+,points,receiving_touchdowns,total_touchdowns,plays_from_scrimmage,receiving_yards,receptions,yards_from_scrimmage,rushing_and_receiving_touchdowns,games,player_id,name,team_abbreviation
+0,36.0,6.0,6.0,15.0,124.0,15.0,124.0,6.0,16.0,hale-hentges-1,Hale Hentges,Alabama
+1,18.0,3.0,3.0,44.0,511.0,44.0,511.0,3.0,25.0,evan-baylis-1,Evan Baylis,Oregon
+2,18.0,3.0,3.0,76.0,791.0,75.0,791.0,3.0,48.0,lee-smith-2,Lee Smith,Marshall
+3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,garrett-bradbury-1,Garrett Bradbury,North Carolina State
+4,42.0,7.0,7.0,68.0,797.0,68.0,797.0,7.0,36.0,jason-witten-1,Jason Witten,Tennessee
+5,66.0,11.0,11.0,78.0,1005.0,78.0,1005.0,11.0,33.0,jesse-james-1,Jesse James,Penn State
+7,26.0,3.0,4.0,111.0,1281.0,100.0,1320.0,4.0,31.0,hayden-hurst-1,Hayden Hurst,South Carolina
+10,66.0,11.0,11.0,70.0,982.0,64.0,1016.0,11.0,26.0,devin-funchess-1,Devin Funchess,Michigan
+11,24.0,4.0,4.0,19.0,281.0,18.0,282.0,4.0,31.0,cj-uzomah-1,C.J. Uzomah,Auburn
+12,54.0,9.0,9.0,66.0,911.0,66.0,911.0,9.0,27.0,joshua-perkins-1,Joshua Perkins,Washington
+13,30.0,5.0,5.0,28.0,404.0,28.0,404.0,5.0,11.0,ian-thomas-3,Ian Thomas,Indiana
+14,30.0,4.0,5.0,64.0,744.0,59.0,826.0,5.0,30.0,cethan-carter-1,Cethan Carter,Nebraska
+15,90.0,15.0,15.0,112.0,1434.0,112.0,1434.0,15.0,37.0,zach-ertz-1,Zach Ertz,Stanford
+16,48.0,8.0,8.0,163.0,1769.0,162.0,1769.0,8.0,42.0,jack-doyle-1,Jack Doyle,Western Kentucky
+17,84.0,14.0,14.0,121.0,1753.0,121.0,1753.0,14.0,47.0,clive-walford-1,Clive Walford,Miami (FL)
+18,30.0,5.0,5.0,17.0,213.0,17.0,213.0,5.0,13.0,jimmy-graham-1,Jimmy Graham,Miami (FL)
+20,42.0,7.0,7.0,53.0,792.0,52.0,798.0,7.0,41.0,jeff-heuerman-1,Jeff Heuerman,Ohio State
+21,90.0,15.0,15.0,81.0,1276.0,81.0,1276.0,15.0,23.0,mark-andrews-1,Mark Andrews,Oklahoma
+22,30.0,5.0,5.0,46.0,487.0,46.0,487.0,5.0,31.0,drew-sample-1,Drew Sample,Washington
+24,66.0,11.0,11.0,79.0,939.0,72.0,992.0,11.0,40.0,virgil-green-1,Virgil Green,Nevada
+25,18.0,3.0,3.0,14.0,135.0,14.0,135.0,3.0,38.0,garrett-celek-1,Garrett Celek,Michigan State
+26,66.0,11.0,11.0,69.0,731.0,69.0,731.0,11.0,35.0,xavier-grimble-1,Xavier Grimble,USC
+27,24.0,4.0,4.0,31.0,311.0,31.0,311.0,4.0,18.0,jordan-thomas-6,Jordan Thomas,Mississippi State
+28,6.0,1.0,1.0,3.0,64.0,3.0,64.0,1.0,13.0,duane-brown-1,Duane Brown,Virginia Tech
+29,6.0,1.0,1.0,11.0,130.0,11.0,130.0,1.0,11.0,joe-staley-2,Joe Staley,Central Michigan
+30,90.0,15.0,15.0,129.0,1481.0,129.0,1481.0,15.0,45.0,mike-gesicki-1,Mike Gesicki,Penn State
+31,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,david-edwards-3,David Edwards,Wisconsin
+32,0.0,0.0,0.0,3.0,50.0,3.0,50.0,0.0,12.0,nate-solder-1,Nate Solder,Colorado
+33,30.0,5.0,5.0,55.0,555.0,55.0,555.0,5.0,33.0,dalton-schultz-1,Dalton Schultz,Stanford
+34,66.0,11.0,11.0,143.0,2015.0,143.0,2015.0,11.0,48.0,clark-harris-1,Clark Harris,Rutgers
+36,62.0,10.0,10.0,99.0,1281.0,99.0,1281.0,10.0,38.0,tommy-sweeney-1,Tommy Sweeney,Boston College
+37,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.0,beau-brinkley-1,Beau Brinkley,Missouri
+38,0.0,0.0,0.0,39.0,605.0,39.0,605.0,0.0,18.0,dawson-knox-1,Dawson Knox,Ole Miss
+39,42.0,7.0,7.0,114.0,1726.0,114.0,1726.0,7.0,46.0,oj-howard-1,O.J. Howard,Alabama
+40,30.0,5.0,5.0,70.0,901.0,70.0,901.0,5.0,34.0,tyler-kroft-1,Tyler Kroft,Rutgers
+41,42.0,7.0,7.0,73.0,945.0,73.0,945.0,7.0,48.0,benjamin-watson-1,Benjamin Watson,Duke
+42,42.0,7.0,7.0,66.0,977.0,66.0,977.0,7.0,37.0,jerell-adams-1,Jerell Adams,South Carolina
+44,0.0,0.0,0.0,1.0,7.0,1.0,7.0,0.0,2.0,george-fant-1,George Fant,Western Kentucky
+45,0.0,0.0,0.0,8.0,88.0,8.0,88.0,0.0,19.0,jamize-olawale-1,Jamize Olawale,North Texas
+46,36.0,6.0,6.0,87.0,1215.0,87.0,1215.0,6.0,33.0,greg-olsen-1,Greg Olsen,Miami (FL)
+47,42.0,7.0,7.0,86.0,1048.0,86.0,1048.0,7.0,34.0,christopher-herndon-iv-1,Christopher Herndon IV,Miami (FL)
+48,114.0,17.0,19.0,114.0,1591.0,114.0,1591.0,18.0,51.0,nick-oleary-1,Nick O'Leary,Florida State
+49,6.0,1.0,1.0,13.0,84.0,13.0,84.0,1.0,11.0,geoff-swaim-1,Geoff Swaim,Texas
+50,102.0,13.0,17.0,115.0,1584.0,107.0,1591.0,17.0,31.0,gerald-everett-1,Gerald Everett,UAB
+51,36.0,6.0,6.0,54.0,471.0,53.0,466.0,6.0,47.0,rhett-ellison-1,Rhett Ellison,USC
+52,126.0,21.0,21.0,126.0,1571.0,126.0,1571.0,21.0,49.0,marcedes-lewis-1,Marcedes Lewis,UCLA
+53,48.0,7.0,8.0,54.0,688.0,52.0,703.0,8.0,13.0,deon-yelder-1,Deon Yelder,Western Kentucky
+54,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,30.0,patrick-scales-1,Patrick Scales,Utah State
+55,0.0,0.0,0.0,8.0,77.0,8.0,77.0,0.0,14.0,jj-watt-1,J.J. Watt,Central Michigan
+56,72.0,10.0,12.0,67.0,875.0,59.0,922.0,12.0,35.0,travis-kelce-1,Travis Kelce,Cincinnati
+57,30.0,5.0,5.0,51.0,804.0,49.0,794.0,5.0,20.0,lance-kendricks-1,Lance Kendricks,Wisconsin
+58,66.0,11.0,11.0,81.0,931.0,81.0,931.0,11.0,43.0,jp-holtz-1,J.P. Holtz,Pitt
+59,36.0,6.0,6.0,54.0,761.0,54.0,761.0,6.0,29.0,ryan-izzo-1,Ryan Izzo,Florida State
+60,54.0,9.0,9.0,116.0,1661.0,116.0,1661.0,9.0,35.0,hunter-henry-1,Hunter Henry,Arkansas
+63,36.0,6.0,6.0,28.0,381.0,28.0,381.0,6.0,22.0,durham-smythe-1,Durham Smythe,Notre Dame
+64,48.0,8.0,8.0,46.0,683.0,46.0,683.0,8.0,23.0,john-mundt-1,John Mundt,Oregon
+65,42.0,7.0,7.0,135.0,1627.0,135.0,1627.0,7.0,47.0,troy-fumagalli-2,Troy Fumagalli,Wisconsin
+67,42.0,6.0,7.0,38.0,397.0,38.0,397.0,6.0,38.0,matt-lacosse-1,Matt Lacosse,Illinois
+68,56.0,8.0,9.0,68.0,905.0,68.0,936.0,9.0,33.0,isaac-nauta-1,Isaac Nauta,Georgia
+69,72.0,12.0,12.0,77.0,1114.0,75.0,1107.0,12.0,30.0,jacob-hollister-1,Jacob Hollister,Wyoming
+70,90.0,15.0,15.0,126.0,1504.0,119.0,1556.0,15.0,42.0,vance-mcdonald-1,Vance McDonald,Rice
+71,54.0,9.0,9.0,78.0,986.0,78.0,986.0,9.0,45.0,luke-willson-1,Luke Willson,Rice
+72,78.0,13.0,13.0,62.0,986.0,61.0,993.0,13.0,23.0,maxx-williams-1,Maxx Williams,Minnesota
+74,282.0,19.0,47.0,383.0,1851.0,201.0,2958.0,47.0,50.0,jaylen-samuels-1,Jaylen Samuels,North Carolina State
+75,12.0,2.0,2.0,61.0,601.0,61.0,601.0,2.0,28.0,sean-culkin-1,Sean Culkin,Missouri
+76,12.0,2.0,2.0,29.0,373.0,28.0,376.0,2.0,12.0,trevon-wesco-1,Trevon Wesco,West Virginia
+77,60.0,10.0,10.0,58.0,838.0,58.0,838.0,10.0,24.0,irv-smith-jr-1,Irv Smith Jr,Alabama
+79,48.0,8.0,8.0,74.0,937.0,74.0,937.0,8.0,24.0,austin-hooper-1,Austin Hooper,Stanford
+80,90.0,15.0,15.0,162.0,2320.0,162.0,2320.0,15.0,41.0,evan-engram-1,Evan Engram,Ole Miss
+81,48.0,8.0,8.0,90.0,1032.0,90.0,1032.0,8.0,29.0,kyle-rudolph-1,Kyle Rudolph,Notre Dame
+82,6.0,1.0,1.0,20.0,288.0,20.0,288.0,1.0,24.0,richard-rodgers-1,Richard Rodgers,California
+83,114.0,19.0,19.0,82.0,1083.0,78.0,1083.0,19.0,30.0,noah-fant-1,Noah Fant,Iowa
+85,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,hunter-bradley-1,Hunter Bradley,Mississippi State
+86,108.0,18.0,18.0,179.0,2001.0,178.0,2006.0,18.0,43.0,jonnu-smith-1,Jonnu Smith,Florida International
+87,36.0,6.0,6.0,56.0,585.0,55.0,584.0,6.0,37.0,nick-vannett-1,Nick Vannett,Ohio State
+88,78.0,13.0,13.0,70.0,1011.0,70.0,1011.0,13.0,36.0,pharaoh-brown-1,Pharaoh Brown,Oregon
+89,12.0,2.0,2.0,29.0,288.0,28.0,290.0,2.0,13.0,dan-vitale-1,Dan Vitale,Northwestern
+91,66.0,11.0,11.0,73.0,921.0,71.0,926.0,11.0,39.0,jeremy-sprinkle-1,Jeremy Sprinkle,Arkansas
+92,68.0,11.0,11.0,83.0,1159.0,83.0,1159.0,11.0,28.0,tyler-conklin-1,Tyler Conklin,Central Michigan
+93,60.0,9.0,10.0,74.0,1080.0,73.0,1084.0,10.0,23.0,tj-hockenson-1,T.J. Hockenson,Iowa
+94,24.0,4.0,4.0,59.0,547.0,59.0,547.0,4.0,40.0,eric-tomlinson-1,Eric Tomlinson,UTEP
+95,26.0,4.0,4.0,27.0,288.0,27.0,288.0,4.0,36.0,jason-peters-3,Jason Peters,Arkansas
+96,42.0,7.0,7.0,99.0,1067.0,98.0,1074.0,7.0,30.0,josh-oliver-1,Josh Oliver,San Jose State
+97,42.0,7.0,7.0,70.0,1049.0,70.0,1049.0,7.0,20.0,kaden-smith-1,Kaden Smith,Stanford
+98,48.0,8.0,8.0,85.0,956.0,85.0,956.0,8.0,52.0,luke-stocker-1,Luke Stocker,Tennessee
+99,30.0,5.0,5.0,44.0,532.0,44.0,532.0,5.0,42.0,ben-koyack-1,Ben Koyack,Notre Dame
+100,6.0,1.0,1.0,14.0,232.0,14.0,232.0,1.0,10.0,alex-ellis-1,Alex Ellis,Tennessee
+102,60.0,10.0,10.0,116.0,1500.0,116.0,1500.0,10.0,48.0,ryan-griffin-1,Ryan Griffin,Connecticut
+103,48.0,8.0,8.0,114.0,1805.0,112.0,1812.0,8.0,34.0,eric-ebron-1,Eric Ebron,North Carolina
+104,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,chase-winovich-1,Chase Winovich,Michigan
+105,36.0,6.0,6.0,52.0,629.0,52.0,629.0,6.0,30.0,foster-moreau-1,Foster Moreau,LSU
