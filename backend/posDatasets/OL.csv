@@ -1,0 +1,93 @@
+,tackles_for_loss,solo_tackles,passes_defended,fumbles_recovered,assists_on_tackles,total_tackles,yards_recovered_from_fumble,games,player_id,name,team_abbreviation
+2,0.0,1.0,0.0,0.0,0.0,1.0,0.0,10.0,rodger-saffold-1,Rodger Saffold,Indiana
+3,0.0,2.0,0.0,0.0,1.0,3.0,0.0,26.0,anthony-castonzo-1,Anthony Castonzo,Boston College
+4,0.0,3.0,0.0,0.0,0.0,3.0,0.0,1.0,spencer-long-1,Spencer Long,Nebraska
+6,0.0,2.0,0.0,0.0,1.0,3.0,0.0,2.0,shaquille-mason-1,Shaquille Mason,Georgia Tech
+7,0.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,austin-blythe-1,Austin Blythe,Iowa
+8,0.0,0.0,0.0,0.0,1.0,1.0,0.0,1.0,brandon-linder-1,Brandon Linder,Miami (FL)
+9,0.0,5.0,0.0,0.0,0.0,5.0,0.0,25.0,jawuan-james-1,Ja'Wuan James,Tennessee
+10,0.0,2.0,0.0,0.0,0.0,2.0,0.0,26.0,andre-smith-3,Andre Smith,Alabama
+11,0.0,1.0,0.0,0.0,0.0,1.0,0.0,13.0,dennis-kelly-1,Dennis Kelly,Purdue
+12,0.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,bj-finney-1,B.J. Finney,Kansas State
+14,0.0,1.0,0.0,0.0,0.0,1.0,0.0,25.0,rodney-hudson-1,Rodney Hudson,Florida State
+16,0.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,james-daniels-1,James Daniels,Iowa
+17,0.0,3.0,0.0,0.0,6.0,9.0,0.0,39.0,morgan-cox-1,Morgan Cox,Tennessee
+18,0.0,1.0,0.0,0.0,0.0,1.0,0.0,13.0,marshal-yanda-1,Marshal Yanda,Iowa
+19,0.0,1.0,0.0,0.0,0.0,1.0,0.0,3.0,mike-mcglinchey-1,Mike McGlinchey,Notre Dame
+21,0.0,1.0,0.0,0.0,0.0,1.0,0.0,13.0,riley-reiff-1,Riley Reiff,Iowa
+22,0.0,0.0,0.0,0.0,1.0,1.0,0.0,11.0,mike-iupati-1,Mike Iupati,Idaho
+23,0.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,lael-collins-1,La'El Collins,LSU
+24,0.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,mark-glowinski-1,Mark Glowinski,West Virginia
+25,0.0,1.0,0.0,0.0,0.0,1.0,0.0,13.0,alex-mack-1,Alex Mack,California
+26,0.0,1.0,0.0,0.0,0.0,1.0,0.0,24.0,tyron-smith-1,Tyron Smith,USC
+27,0.0,1.0,0.0,0.0,1.0,2.0,0.0,28.0,maurkice-pouncey-1,Maurkice Pouncey,Florida
+29,0.0,1.0,0.0,1.0,1.0,2.0,0.0,26.0,zack-martin-1,Zack Martin,Notre Dame
+30,0.0,1.0,0.0,0.0,0.0,1.0,0.0,12.0,bobby-massie-1,Bobby Massie,Ole Miss
+31,0.0,3.0,0.0,0.0,0.0,3.0,0.0,3.0,quenton-nelson-1,Quenton Nelson,Notre Dame
+32,0.0,3.0,0.0,0.0,1.0,4.0,0.0,4.0,alex-lewis-2,Alex Lewis,Colorado
+33,0.0,2.0,0.0,0.0,0.0,2.0,0.0,26.0,kenny-wiggins-1,Kenny Wiggins,Fresno State
+34,0.0,1.0,0.0,0.0,0.0,1.0,0.0,12.0,ramon-foster-1,Ramon Foster,Tennessee
+36,0.0,1.0,0.0,0.0,0.0,1.0,0.0,13.0,lane-johnson-1,Lane Johnson,Oklahoma
+37,0.0,2.0,0.0,0.0,1.0,3.0,0.0,13.0,nick-sundberg-1,Nick Sundberg,California
+38,0.0,0.0,0.0,0.0,1.0,1.0,0.0,6.0,brian-oneill-1,Brian O'Neill,Pitt
+42,1.0,5.0,0.0,0.0,3.0,8.0,0.0,13.0,mike-pouncey-1,Mike Pouncey,Florida
+43,0.0,2.0,0.0,0.0,1.0,3.0,0.0,3.0,ty-sambrailo-1,Ty Sambrailo,Colorado State
+44,0.0,3.0,0.0,0.0,0.0,3.0,0.0,25.0,jeff-allen-2,Jeff Allen,Illinois
+45,0.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,cam-robinson-2,Cam Robinson,Alabama
+46,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13.0,marshall-newhouse-1,Marshall Newhouse,Texas Christian
+49,2.0,3.0,0.0,0.0,3.0,6.0,0.0,38.0,aq-shipley-1,A.Q. Shipley,Penn State
+50,0.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,evan-boehm-1,Evan Boehm,Missouri
+51,0.0,3.0,0.0,0.0,0.0,3.0,0.0,24.0,ryan-groy-1,Ryan Groy,Wisconsin
+52,0.0,1.0,0.0,0.0,0.0,1.0,0.0,12.0,ronald-leary-1,Ronald Leary,Memphis
+53,0.5,2.0,0.0,1.0,2.0,4.0,0.0,4.0,justin-ellis-1,Justin Ellis,Louisiana Tech
+54,0.0,2.0,0.0,0.0,0.0,2.0,0.0,13.0,travis-frederick-1,Travis Frederick,Wisconsin
+55,0.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,pat-elfein-1,Pat Elflein,Ohio State
+56,0.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,ryan-kelly-1,Ryan Kelly,Alabama
+57,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,mitchell-loewen-1,Mitchell Loewen,Arkansas
+58,0.0,2.0,0.0,0.0,1.0,3.0,0.0,17.0,jordan-mills-1,Jordan Mills,Louisiana Tech
+59,0.0,0.0,0.0,0.0,0.0,0.0,0.0,24.0,taylor-lewan-1,Taylor Lewan,Michigan
+60,0.0,2.0,0.0,0.0,1.0,3.0,0.0,15.0,joel-bitonio-1,Joel Bitonio,Nevada
+61,4.0,8.0,0.0,0.0,4.0,12.0,0.0,5.0,graham-glasgow-1,Graham Glasgow,Michigan
+62,0.0,1.0,0.0,0.0,0.0,1.0,0.0,13.0,ben-jones-3,Ben Jones,Georgia
+64,0.0,1.0,0.0,0.0,1.0,2.0,0.0,12.0,justin-pugh-1,Justin Pugh,Syracuse
+65,0.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,isaac-seumalo-1,Isaac Seumalo,Oregon State
+66,0.0,3.0,0.0,0.0,3.0,6.0,0.0,27.0,gabe-jackson-1,Gabe Jackson,Mississippi State
+67,0.0,2.0,0.0,0.0,0.0,2.0,0.0,25.0,russell-okung-1,Russell Okung,Oklahoma State
+69,0.0,2.0,0.0,0.0,0.0,2.0,0.0,13.0,michael-schofield-1,Michael Schofield,Michigan
+70,0.0,1.0,0.0,0.0,0.0,1.0,0.0,7.0,donald-penn-1,Donald Penn,Utah State
+72,3.0,13.0,0.0,0.0,18.0,31.0,0.0,13.0,ben-garland-1,Ben Garland,Air Force
+73,0.0,2.0,0.0,0.0,0.0,2.0,0.0,26.0,ryan-kalil-1,Ryan Kalil,USC
+74,0.0,1.0,0.0,0.0,1.0,2.0,0.0,13.0,oday-aboushi-1,Oday Aboushi,Virginia
+75,0.0,2.0,0.0,0.0,0.0,2.0,0.0,2.0,kaleb-mcgary-1,Kaleb McGary,Washington
+76,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,wyatt-teller-1,Wyatt Teller,Virginia Tech
+78,0.0,1.0,0.0,0.0,1.0,2.0,0.0,13.0,justin-britt-2,Justin Britt,Missouri
+79,0.0,1.0,0.0,0.0,1.0,2.0,0.0,12.0,joe-cardona-1,Joe Cardona,Navy
+80,0.0,1.0,0.0,0.0,0.0,1.0,0.0,14.0,james-carpenter-1,James Carpenter,Alabama
+81,0.0,3.0,0.0,0.0,5.0,8.0,0.0,32.0,jj-jansen-1,J.J. Jansen,Notre Dame
+82,0.0,1.0,0.0,0.0,0.0,1.0,0.0,13.0,morgan-moses-1,Morgan Moses,Virginia
+83,0.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,justin-mccray-1,Justin McCray,UCF
+84,0.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,kendall-lamm-1,Kendall Lamm,Appalachian State
+85,0.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,greg-robinson-3,Greg Robinson,Auburn
+86,0.0,1.0,0.0,0.0,0.0,1.0,0.0,2.0,michael-deiter-1,Michael Deiter,Wisconsin
+87,0.0,2.0,0.0,0.0,2.0,4.0,0.0,21.0,brandon-brooks-1,Brandon Brooks,Miami (OH)
+88,0.0,0.0,0.0,0.0,5.0,5.0,0.0,37.0,charley-hughlett-1,Charley Hughlett,UCF
+90,0.0,0.0,0.0,0.0,1.0,1.0,0.0,1.0,ereck-flowers-1,Ereck Flowers,Miami (FL)
+91,0.0,1.0,0.0,0.0,1.0,2.0,0.0,26.0,cordy-glenn-1,Cordy Glenn,Georgia
+92,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,jamon-brown-1,Jamon Brown,Louisville
+94,0.0,0.0,0.0,0.0,1.0,1.0,0.0,10.0,tony-bergstrom-1,Tony Bergstrom,Utah
+96,0.0,1.0,0.0,0.0,0.0,1.0,0.0,2.0,kolton-miller-1,Kolton Miller,UCLA
+97,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,dion-dawkins-1,Dion Dawkins,Temple
+98,0.0,2.0,0.0,0.0,1.0,3.0,0.0,14.0,james-winchester-1,James Winchester,Oklahoma
+99,0.0,2.0,0.0,0.0,0.0,2.0,0.0,1.0,jamil-douglas-1,Jamil Douglas,Arizona State
+100,0.0,2.0,0.0,0.0,0.0,2.0,0.0,2.0,trenton-brown-1,Trenton Brown,Florida
+101,0.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,aj-cann-1,A.J. Cann,South Carolina
+104,0.0,0.0,0.0,0.0,1.0,1.0,0.0,1.0,cody-whitehair-1,Cody Whitehair,Kansas State
+105,0.0,2.0,0.0,0.0,0.0,2.0,0.0,37.0,bradley-sowell-1,Bradley Sowell,Ole Miss
+107,0.0,4.0,0.0,0.0,3.0,7.0,0.0,26.0,josh-harris-4,Josh Harris,Auburn
+108,0.0,1.0,0.0,0.0,1.0,2.0,0.0,2.0,frank-ragnow-1,Frank Ragnow,Arkansas
+109,0.0,2.0,0.0,0.0,0.0,2.0,0.0,1.0,quinton-spain-1,Quinton Spain,West Virginia
+110,0.0,1.0,0.0,0.0,0.0,1.0,0.0,13.0,dj-fluker-1,D.J. Fluker,Alabama
+111,0.0,2.0,0.0,0.0,0.0,2.0,0.0,2.0,taylor-decker-1,Taylor Decker,Ohio State
+112,1.0,8.0,2.0,0.0,2.0,10.0,0.0,4.0,coleman-shelton-1,Coleman Shelton,Washington
+113,0.0,2.0,0.0,0.0,0.0,2.0,0.0,2.0,rob-havenstein-1,Rob Havenstein,Wisconsin
+114,0.0,0.0,0.0,0.0,1.0,1.0,0.0,1.0,max-scharping-1,Max Scharping,Northern Illinois

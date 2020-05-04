@@ -1,0 +1,46 @@
+,tackles_for_loss,points,solo_tackles,total_touchdowns,passes_defended,fumbles_recovered,assists_on_tackles,interceptions_returned_for_touchdown,total_tackles,punt_return_touchdowns,interceptions,fumbles_forced,yards_returned_from_interceptions,games,player_id,name,team_abbreviation
+2,1.5,12.0,34.0,2.0,23.0,1.0,9.0,2.0,43.0,0.0,5.0,0.0,110.0,12.0,william-jackson-iii-1,William Jackson III,Houston
+3,17.0,24.0,123.0,4.0,37.0,0.0,58.0,4.0,181.0,0.0,11.0,4.0,242.0,48.0,jalen-davis-1,Jalen Davis,Utah State
+4,13.5,0.0,138.0,0.0,14.0,0.0,59.0,0.0,197.0,0.0,5.0,5.0,39.0,33.0,jeremy-reaves-1,Jeremy Reaves,South Alabama
+5,2.0,0.0,36.0,0.0,12.0,0.0,11.0,0.0,47.0,0.0,2.0,0.0,-1.0,12.0,rock-ya-sin-1,Rock Ya-Sin,Temple
+9,5.0,0.0,89.0,0.0,18.0,1.0,32.0,0.0,121.0,0.0,3.0,2.0,6.0,37.0,juston-burris-1,Juston Burris,North Carolina State
+15,6.5,12.0,147.0,2.0,18.0,2.0,35.0,1.0,182.0,0.0,7.0,1.0,25.0,48.0,chandon-sullivan-1,Chandon Sullivan,Georgia State
+16,2.0,6.0,58.0,1.0,15.0,1.0,19.0,0.0,77.0,1.0,7.0,1.0,42.0,29.0,jaire-alexander-1,Jaire Alexander,Louisville
+17,2.0,6.0,85.0,1.0,16.0,0.0,37.0,1.0,122.0,0.0,8.0,0.0,26.0,25.0,steven-nelson-1,Steven Nelson,Oregon State
+21,4.5,6.0,51.0,1.0,11.0,2.0,17.0,0.0,68.0,0.0,6.0,3.0,52.0,23.0,ugo-amadi-1,Ugo Amadi,Oregon
+22,8.0,12.0,154.0,2.0,31.0,4.0,34.0,1.0,188.0,0.0,16.0,3.0,203.0,46.0,parry-nickerson-1,Parry Nickerson,Tulane
+24,0.0,0.0,10.0,0.0,3.0,0.0,1.0,0.0,11.0,0.0,0.0,0.0,0.0,10.0,mike-hughes-4,Mike Hughes,North Carolina
+25,2.0,0.0,63.0,0.0,12.0,0.0,24.0,0.0,87.0,0.0,1.0,1.0,0.0,17.0,xavier-crawford-2,Xavier Crawford,Oregon State
+26,3.0,0.0,52.0,0.0,9.0,0.0,12.0,0.0,64.0,0.0,1.0,1.0,24.0,22.0,lonnie-johnson-4,Lonnie Johnson,Kentucky
+27,0.0,12.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,9.0,pharoh-cooper-1,Pharoh Cooper,South Carolina
+28,6.5,6.0,89.0,1.0,22.0,1.0,50.0,1.0,139.0,0.0,5.0,1.0,76.0,47.0,grant-haley-1,Grant Haley,Penn State
+30,2.0,0.0,47.0,0.0,24.0,0.0,20.0,0.0,67.0,0.0,2.0,0.0,0.0,26.0,denzel-ward-3,Denzel Ward,Ohio State
+32,7.5,6.0,56.0,1.0,17.0,2.0,30.0,0.0,86.0,0.0,4.0,1.0,16.0,28.0,eli-apple-1,Eli Apple,Ohio State
+33,2.0,0.0,88.0,0.0,20.0,2.0,30.0,0.0,118.0,0.0,3.0,3.0,70.0,32.0,kris-boyd-1,Kris Boyd,Texas
+37,8.0,6.0,73.0,1.0,25.0,2.0,46.0,1.0,119.0,0.0,8.0,2.0,48.0,29.0,kendall-fuller-1,Kendall Fuller,Virginia Tech
+39,2.0,0.0,38.0,0.0,4.0,0.0,7.0,0.0,45.0,0.0,1.0,0.0,0.0,16.0,chris-lammons-1,Chris Lammons,South Carolina
+40,9.0,0.0,91.0,0.0,39.0,1.0,40.0,0.0,131.0,0.0,5.0,3.0,0.0,51.0,brandon-facyson-1,Brandon Facyson,Virginia Tech
+42,11.5,0.0,129.0,0.0,41.0,3.0,70.0,0.0,199.0,0.0,6.0,3.0,21.0,49.0,mj-stewart-1,M.J. Stewart,North Carolina
+44,2.0,0.0,22.0,0.0,2.0,1.0,7.0,0.0,29.0,0.0,0.0,0.0,0.0,10.0,john-johnson-9,John Johnson,Boston College
+45,1.5,6.0,76.0,1.0,11.0,0.0,27.0,1.0,103.0,0.0,6.0,3.0,109.0,27.0,rico-gafford-1,Rico Gafford,Wyoming
+48,0.0,0.0,8.0,0.0,2.0,0.0,0.0,0.0,8.0,0.0,0.0,0.0,0.0,3.0,simeon-thomas-1,Simeon Thomas,Louisiana
+49,1.0,0.0,22.0,0.0,5.0,1.0,10.0,0.0,32.0,0.0,2.0,1.0,27.0,9.0,deandre-baker-1,Deandre Baker,Georgia
+50,1.0,6.0,34.0,1.0,11.0,0.0,11.0,1.0,45.0,0.0,4.0,0.0,61.0,16.0,marshon-lattimore-1,Marshon Lattimore,Ohio State
+51,4.0,60.0,67.0,10.0,17.0,1.0,17.0,1.0,84.0,2.0,1.0,2.0,46.0,26.0,adoree-jackson-1,Adoree Jackson,USC
+54,1.5,0.0,49.0,0.0,19.0,0.0,22.0,0.0,71.0,0.0,8.0,0.0,52.0,24.0,greedy-williams-1,Greedy Williams,LSU
+55,1.0,0.0,66.0,0.0,15.0,0.0,25.0,0.0,91.0,0.0,6.0,0.0,0.0,35.0,gareon-conley-1,Gareon Conley,Ohio State
+57,4.5,12.0,54.0,2.0,21.0,1.0,19.0,2.0,73.0,0.0,6.0,0.0,89.0,24.0,darius-williams-3,Darius Williams,UAB
+58,4.5,0.0,68.0,0.0,7.0,0.0,25.0,0.0,93.0,0.0,4.0,1.0,46.0,32.0,trayvon-mullen-1,Trayvon Mullen,Clemson
+62,6.0,0.0,95.0,0.0,25.0,0.0,24.0,0.0,119.0,0.0,4.0,1.0,8.0,34.0,joejuan-williams-1,Joejuan Williams,Vanderbilt
+68,8.0,0.0,107.0,0.0,34.0,2.0,42.0,0.0,149.0,0.0,12.0,1.0,72.0,46.0,breon-borders-1,Breon Borders,Duke
+69,6.0,0.0,108.0,0.0,12.0,0.0,26.0,0.0,134.0,0.0,5.0,1.0,68.0,25.0,dane-cruikshank-1,Dane Cruikshank,Arizona
+70,0.0,24.0,16.0,4.0,12.0,0.0,7.0,1.0,23.0,2.0,4.0,0.0,47.0,25.0,greg-stroman-1,Greg Stroman,Virginia Tech
+73,0.0,0.0,11.0,0.0,2.0,0.0,4.0,0.0,15.0,0.0,0.0,0.0,0.0,8.0,akeem-king-1,Akeem King,San Jose State
+74,1.0,6.0,72.0,1.0,20.0,0.0,34.0,1.0,106.0,0.0,8.0,1.0,45.0,38.0,amani-oruwariye-1,Amani Oruwariye,Penn State
+75,3.5,6.0,92.0,1.0,13.0,0.0,24.0,1.0,116.0,0.0,5.0,3.0,48.0,26.0,dj-white-1,D.J. White,Georgia Tech
+76,9.0,0.0,125.0,0.0,21.0,1.0,18.0,0.0,143.0,0.0,10.0,2.0,50.0,33.0,daryl-worley-1,Daryl Worley,West Virginia
+77,4.0,0.0,33.0,0.0,11.0,1.0,11.0,0.0,44.0,0.0,0.0,0.0,0.0,23.0,mackensie-alexander-1,Mackensie Alexander,Clemson
+79,6.0,18.0,126.0,3.0,39.0,4.0,50.0,2.0,176.0,0.0,5.0,2.0,159.0,38.0,julian-love-1,Julian Love,Notre Dame
+83,3.5,6.0,55.0,1.0,9.0,0.0,22.0,1.0,77.0,0.0,9.0,2.0,101.0,18.0,rasul-douglas-1,Rasul Douglas,West Virginia
+84,0.0,6.0,2.0,1.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,6.0,rashad-fenton-1,Rashad Fenton,South Carolina
+87,9.5,0.0,146.0,0.0,36.0,0.0,72.0,0.0,218.0,0.0,6.0,1.0,27.0,48.0,iman-marshall-1,Iman Marshall,USC
