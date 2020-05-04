@@ -1,15 +1,12 @@
 <template>
   <div id="app">
     <Topbar />
-    <HomepageContent />
-    <Results />
+    <router-view />
   </div>
 </template>
 
 <script>
 import Topbar from "@/components/Topbar.vue";
-import HomepageContent from "@/components/HomepageContent.vue";
-import Results from "@/components/Results.vue";
 
 export default {
   name: "App",
@@ -18,9 +15,7 @@ export default {
   },
   components: {
     Topbar,
-    HomepageContent,
-    Results
-  }
+  },
 };
 </script>
 
