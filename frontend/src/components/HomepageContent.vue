@@ -20,20 +20,6 @@
             </div>
         </div>
 
-        <!-- TOOL container -->
-        <div class="container" id="TOOL">
-            <div class="content" style="max-width:700px">
-
-                <h5 class="center padding-48"><span class="tag wide">PLAYER LOOKUP HERE</span></h5>
-
-                <div class="searchbar">
-                    <input type="text" placeholder="Search..">
-                </div>
-
-
-            </div>
-        </div>
-
         <!-- Contact/Area Container -->
         <div class="container" id="CONTACT US" style="padding-bottom:32px;">
             <div class="content" style="max-width:700px">
