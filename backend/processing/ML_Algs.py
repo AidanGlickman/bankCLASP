@@ -3,6 +3,8 @@ from Dataset_Loader import Dataset_Loader
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.preprocessing import StandardScaler
 import numpy as np
+import pandas as pd
+import json
 
 
 def cos_sim(dataset):
@@ -30,5 +32,13 @@ def cos_sim(dataset):
 
 if __name__ == "__main__":
     loader = Dataset_Loader(method='file')
-    dataset = loader.load_dataset("QB")
-    cos_sim(dataset)['lamar-jackson-1'].to_csv('jackson.csv')
+    sets = loader.load_all_datasets()
+    processed = []
+    for dataset in sets:
+        data_proc = cos_sim(dataset)
+        for player in data_proc.keys():
+            similar = data_proc[player].head(n=6)['name'].tolist()
+            processed.append(
+                {'name': similar[0], 'similar': similar[1:]})
+    with open('dataset.json', 'w') as json_file:
+        json.dump(processed, json_file)

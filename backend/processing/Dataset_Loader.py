@@ -16,6 +16,9 @@ class Dataset_Loader:
         '''
         return self.datasets[position]
 
+    def load_all_datasets(self):
+        return self.datasets.values()
+
     def aggregateStats(self, positionPlayer):
         '''
         sums all the stats to get down to one vector
