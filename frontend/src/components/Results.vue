@@ -11,7 +11,7 @@
       ></b-input>
     </b-form>
     <ul>
-      <li v-for="player in filteredPlayers" v-bind:key="Name">
+      <li v-for="player in filteredPlayers" v-bind:key="name">
         <nuxt-link
           :to="'/user/' + student.id"
           v-html="student.name"
@@ -28,7 +28,7 @@
     export default {
     data: () => {
         return {
-        students: [],
+        players: [],
         filters: {
             name: ""
         }
