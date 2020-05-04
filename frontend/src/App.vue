@@ -2,9 +2,7 @@
   <div id="app">
     <Topbar/>
     <HomepageContent/>
-    <ResultsBox>
-      v-html:
-    </ResultsBox>
+    <Results/>
   </div>
 </template>
 
