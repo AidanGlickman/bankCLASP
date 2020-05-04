@@ -40,7 +40,7 @@
                 <h5 class="center padding-48"><span class="tag wide">CONTACT US</span></h5>
                 <p>Email us at help@bankclasp.com</p>
                 <p> or </p>
-                <p>Leave issues with the site or tool at https://github.com/natjef/bankCLASP </p>
+                <p>Leave issues with the site or tool at https://github.com/AidanGlickman/bankCLASP </p>
             </div>
         </div>
 
