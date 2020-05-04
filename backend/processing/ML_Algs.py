@@ -39,6 +39,6 @@ if __name__ == "__main__":
         for player in data_proc.keys():
             similar = data_proc[player].head(n=6)['name'].tolist()
             processed.append(
-                {'name': similar[0], 'similar': similar[1:]})
+                {'name': similar[0], 'similar': similar[1:], 'id': player})
     with open('dataset.json', 'w') as json_file:
         json.dump(processed, json_file)
