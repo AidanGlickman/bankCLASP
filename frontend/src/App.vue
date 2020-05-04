@@ -9,7 +9,6 @@
 <script>
 import Topbar from '@/components/Topbar.vue'
 import HomepageContent from '@/components/HomepageContent.vue'
-import ResultsBox from '@/components/ResultsBox.vue'
 import Results from '@/components/Results.vue'
 import json from '@/json/players.json'
 
@@ -23,7 +22,6 @@ export default {
   components: {
     Topbar,
     HomepageContent,
-    ResultsBox,
     Results
   },
 };

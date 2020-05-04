@@ -58,19 +58,19 @@
 
     computed: {
         filteredPlayers() {
-        var options = {
-            pre: "<strong>",
-            post: "</strong>",
-            extract: function(el) {
-            return el.name;
+            var options = {
+                pre: "<strong>",
+                post: "</strong>",
+                extract: function(el) {
+                return el.name;
+                }
+            };
+            return fuzzy
+                .filter(this.filters.name, this.players, options)
+                .map(res => {
+                return { ...res.original, name: res.string };
+                });
             }
-        };
-        return fuzzy
-            .filter(this.filters.name, this.players, options)
-            .map(res => {
-            return { ...res.original, name: res.string };
-            });
         }
-    }
     };
 </script>
