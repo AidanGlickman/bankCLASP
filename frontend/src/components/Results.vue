@@ -11,7 +11,7 @@
       ></b-input>
     </b-form>
     <ul>
-      <li v-for="student in filteredStudents" v-bind:key="student.email">
+      <li v-for="player in filteredPlayers" v-bind:key="Name">
         <nuxt-link
           :to="'/user/' + student.id"
           v-html="student.name"
@@ -36,7 +36,7 @@
     },
     async asyncData(context) {
         const { users } = await getData(context);
-        const students = Object.keys(users)
+        const players = Object.keys(users)
         .map(id => ({ ...users[id], id }))
         .filter(user => user.year)
         .sort((a, b) => {
@@ -45,7 +45,7 @@
             return 0;
         });
         return {
-        students
+        players
         };
     },
 
@@ -57,10 +57,7 @@
     },
 
     computed: {
-        filteredStudents() {
-        if (!this.filters.name) {
-            return this.students;
-        }
+        filteredPlayers() {
         var options = {
             pre: "<strong>",
             post: "</strong>",
@@ -69,7 +66,7 @@
             }
         };
         return fuzzy
-            .filter(this.filters.name, this.students, options)
+            .filter(this.filters.name, this.players, options)
             .map(res => {
             return { ...res.original, name: res.string };
             });
