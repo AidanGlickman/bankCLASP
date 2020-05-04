@@ -52,7 +52,7 @@
     async getData(context) {
         const host = (typeof window !== "undefined" && window.location.host) || (process.server && context.req.headers.host);
         const protocol = host.includes("local") ? "http" : "https";
-        const { data } = await axios.get(`${protocol}://${host}/data/1920T2.json`);
+        const { data } = await axios.get(`${protocol}://${host}/players.json`);
         return data;
     },
 
