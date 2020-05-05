@@ -43,7 +43,7 @@ if __name__ == "__main__":
                 similar.iloc[1:]['similarity'].values, index=similar.iloc[1:]['name']).to_dict()
             sim_dict_proc = {str(k): float(v) for k, v in sim_dict.items()}
             processed.append(
-                {'name': str(similar.iloc[0].name), 'similar': sim_dict_proc, 'id': str(player)})
+                {'name': str(similar['name'].tolist()[0]), 'similar': sim_dict_proc, 'id': str(player)})
 
     with open('dataset.json', 'w') as json_file:
         json.dump(processed, json_file)
