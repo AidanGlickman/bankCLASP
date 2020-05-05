@@ -41,7 +41,8 @@ if __name__ == "__main__":
                 n=6)
             sim_dict = pd.Series(
                 similar.iloc[1:]['similarity'].values, index=similar.iloc[1:]['name']).to_dict()
-            sim_dict_proc = {str(k): float(v) for k, v in sim_dict.items()}
+            sim_dict_proc = [{'name': str(k), 'similarity': float(v)}
+                             for k, v in sim_dict.items()]
             processed.append(
                 {'name': str(similar['name'].tolist()[0]), 'similar': sim_dict_proc, 'id': str(player)})
 
