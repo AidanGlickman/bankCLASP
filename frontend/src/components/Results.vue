@@ -13,10 +13,12 @@
     <ul>
       <li v-for="player in filteredPlayers" v-bind:key="player.id">
         {{player.name}}:
-        <span
-          v-for="similar in player.similar"
-          v-bind:key="similar"
-        >{{similar}},&nbsp;</span>
+        <ul>
+          <li
+            v-for="similar in player.similar"
+            v-bind:key="similar"
+          >{{similar.name}}: {{similar.similarity}}</li>
+        </ul>
       </li>
     </ul>
   </div>
