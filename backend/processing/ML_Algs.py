@@ -37,8 +37,13 @@ if __name__ == "__main__":
     for dataset in sets:
         data_proc = cos_sim(dataset)
         for player in data_proc.keys():
-            similar = data_proc[player].head(n=6)['name'].tolist()
+            similar = data_proc[player].head(
+                n=6)
+            sim_dict = pd.Series(
+                similar.iloc[1:]['similarity'].values, index=similar.iloc[1:]['name']).to_dict()
+            sim_dict_proc = {str(k): float(v) for k, v in sim_dict.items()}
             processed.append(
-                {'name': similar[0], 'similar': similar[1:], 'id': player})
+                {'name': str(similar.iloc[0].name), 'similar': sim_dict_proc, 'id': str(player)})
+
     with open('dataset.json', 'w') as json_file:
         json.dump(processed, json_file)
