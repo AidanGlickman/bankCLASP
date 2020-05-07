@@ -30,7 +30,7 @@ def cos_sim(dataset):
     # return sims
 
 
-if __name__ == "__main__":
+def nflCosSim():
     loader = Dataset_Loader(method='file')
     sets = loader.load_all_datasets()
     processed = []
@@ -48,3 +48,22 @@ if __name__ == "__main__":
 
     with open('dataset.json', 'w') as json_file:
         json.dump(processed, json_file)
+
+
+def procPlayer(player, baseData):
+    dataset = baseData[player.position.unique()[0]]
+    dataset = dataset.append(player)
+    data_proc = cos_sim(dataset)
+    playerCos = data_proc[player.player_id]
+    similar = playerCos.head(
+        n=6)
+    sim_dict = pd.Series(
+        similar.iloc[1:]['similarity'].values, index=similar.iloc[1:]['name']).to_dict()
+    sim_dict_proc = [{'name': str(k), 'similarity': float(v)}
+                     for k, v in sim_dict.items()]
+    return {'name': str(player.name), 'similar': sim_dict_proc, 'id': str(player.id)}
+
+
+if __name__ == "__main__":
+    loader = Dataset_Loader(method='file')
+    sets = loader.load_all_datasets()

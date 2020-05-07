@@ -74,7 +74,27 @@ def processTeam(nflTeam, outputDir):
         bar.finish()
 
 
-def main():
+def loadNcaafPlayers():
+    timestamp = datetime.datetime.utcnow().strftime("%Y-%m-%d-%H:%M:%S")
+    outputDir = os.path.join(os.curdir, "out", "gather", timestamp)
+    os.makedirs(outputDir, exist_ok=True)
+    with Bar("ALL TEAMS", max=len(ncaafTeams())) as bar1:
+        for team in ncaafTeams():
+            roster = team.roster
+            with Bar(team.name, max=len(roster.players)) as bar2:
+                for player in roster.players:
+                    try:
+                        player.dataframe.to_csv(
+                            os.path.join(outputDir, player.player_id, '.csv'))
+                    except:
+                        continue
+                    bar2.next()
+                bar2.finish()
+            bar1.next()
+        bar1.finish()
+
+
+def loadNflDataset():
     timestamp = datetime.datetime.utcnow().strftime("%Y-%m-%d-%H:%M:%S")
     os.makedirs(os.path.join(os.curdir, "logs", "gather"), exist_ok=True)
     logging.basicConfig(filename=os.path.join("logs", "gather", timestamp + ".log"),
@@ -94,4 +114,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    loadNcaafPlayers()
