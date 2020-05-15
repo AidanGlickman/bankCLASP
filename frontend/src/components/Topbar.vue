@@ -2,9 +2,9 @@
   <div class="topnav">
     <div class="row padding black">
       <router-link to="/" class="active">BANKclasp</router-link>
-      <a href="#about">About</a>
+      <router-link to="/#about">About</router-link>
       <router-link to="/tool">Tool</router-link>
-      <a href="#CONTACT US">Contact Us</a>
+      <router-link to="/contact">Contact Us</router-link>
     </div>
   </div>
 </template>
