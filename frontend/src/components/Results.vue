@@ -13,7 +13,7 @@
     
     <ul>
       <li v-for="player in filteredPlayers" v-bind:key="player.id">
-        {{player.name}}:
+        {{player.name}}
       </li>
     </ul>
   </div>
