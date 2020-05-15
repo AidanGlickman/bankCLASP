@@ -14,12 +14,6 @@
     <ul>
       <li v-for="player in filteredPlayers" v-bind:key="player.id">
         {{player.name}}:
-        <ul>
-          <li
-            v-for="similar in player.similar"
-            v-bind:key="similar"
-          ></li>
-        </ul>
       </li>
     </ul>
   </div>
