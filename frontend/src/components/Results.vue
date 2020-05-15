@@ -18,7 +18,7 @@
           <li
             v-for="similar in player.similar"
             v-bind:key="similar"
-          >{{similar.name}}</li>
+          ></li>
         </ul>
       </li>
     </ul>
