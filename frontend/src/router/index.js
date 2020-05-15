@@ -2,6 +2,7 @@ import Vue from "vue";
 import Router from "vue-router";
 import Home from "@/components/HomepageContent";
 import Tool from "@/components/Results";
+import Player from "@/components/Player";
 
 Vue.use(Router);
 
@@ -17,6 +18,11 @@ export default new Router({
       path: "/tool",
       name: "tool",
       component: Tool,
+    },
+    {
+      path: "/player/:id",
+      name: "player",
+      component: Player,
     },
   ],
 });

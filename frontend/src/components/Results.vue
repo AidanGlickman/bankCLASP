@@ -1,7 +1,7 @@
 <template>
   <div class="Results">
     <h1>Players</h1>
-    <b-form inline>
+    <form v-on:submit="onSubmit" inline>
       <label class="sr-only" for="inline-form-input-name">Name</label>
       <input
         id="inline-form-input-name"
@@ -9,8 +9,9 @@
         placeholder="Name"
         v-model="filters.name"
       />
-    </b-form>
-    <ul>
+      
+    </form>
+    <!-- <ul>
       <li v-for="player in filteredPlayers" v-bind:key="player.id">
         {{player.name}}:
         <ul>
@@ -20,7 +21,7 @@
           >{{similar.name}}: {{similar.similarity}}</li>
         </ul>
       </li>
-    </ul>
+    </ul> -->
   </div>
 </template>
 
@@ -29,6 +30,7 @@ import fuzzy from "fuzzy";
 import axios from "axios";
 
 export default {
+  name: "results",
   data: () => {
     return {
       players: [],
@@ -36,6 +38,11 @@ export default {
         name: ""
       }
     };
+  },
+  methods: {
+    onSubmit: function() {
+      this.$router.push("/player/" + this.filteredPlayers[0].id)
+    }
   },
 
   created: function() {
