@@ -4,6 +4,7 @@
         <a><i>Player Name:</i> {{this.player.name}} (id: {{this.player.id}})</a>
 
         <p>Sportsreference page: https://www.sports-reference.com/cfb/players/{{this.player.id}}.html</p>
+
         <p><i><br>Most similar players:</i></p>
 
         <table width=100%>
