@@ -6,6 +6,7 @@ import Player from "@/components/Player";
 import Contact from "@/components/Contact";
 
 
+
 Vue.use(Router);
 
 export default new Router({
