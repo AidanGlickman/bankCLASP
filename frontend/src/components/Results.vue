@@ -9,28 +9,13 @@
         placeholder="Name"
         v-model="filters.name"
       />
-      <Dropdown
-      :options="[{ id: 1, name: 'Option 1'}, { id: 2, name: 'Option 2'}]"
-      v-on:selected="validateSelection"
-      v-on:filter="getDropdownValues"
-      :disabled="false"
-      name="zipcode"
-      :maxItem="10"
-      placeholder="Please select an option">
-      </Dropdown>
     </form>
     
-    <!-- <ul>
+    <ul>
       <li v-for="player in filteredPlayers" v-bind:key="player.id">
-        {{player.name}}:
-        <ul>
-          <li
-            v-for="similar in player.similar"
-            v-bind:key="similar"
-          >{{similar.name}}: {{similar.similarity}}</li>
-        </ul>
+        {{player.name}}
       </li>
-    </ul> -->
+    </ul>
   </div>
 </template>
 
