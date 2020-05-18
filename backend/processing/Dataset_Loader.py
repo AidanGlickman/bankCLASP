@@ -17,7 +17,7 @@ class Dataset_Loader:
         return self.datasets[position]
 
     def load_all_datasets(self):
-        return self.datasets.values()
+        return self.datasets
 
     def aggregateStats(self, positionPlayer):
         '''
@@ -36,7 +36,8 @@ class Dataset_Loader:
         '''
         loads a player and returns a dict giving his aggregated stats by position
         '''
-        player_dat = pd.read_csv(player_path)
+        player_dat = pd.read_csv(
+            player_path)
         # get rid of the career row
         player_dat.drop(player_dat.index[-1], axis=0, inplace=True)
 
@@ -91,12 +92,12 @@ class Dataset_Loader:
         os.makedirs(out_path, exist_ok=True)
         for position in self.datasets.keys():
             self.load_dataset(position).to_csv(
-                os.path.join(out_path, position + '.csv'))
+                os.path.join(out_path, position + '.csv'), index=False)
 
     def __init__(self, method='gathered', dump=False, applicable_path=os.path.join('applicable'), players_path=os.path.join('pairedPlayers'), dataset_path=os.path.join('posDatasets'), out_path=os.path.join('out', 'datasets', datetime.datetime.utcnow().strftime("%Y-%m-%d-%H:%M:%S"))):
         self.method = method
+        self.applicables = self.read_applicables(applicable_path)
         if self.method == 'gathered':
-            self.applicables = self.read_applicables(applicable_path)
             self.from_gathered(players_path)
             if dump:
                 self.dump_datasets(out_path)

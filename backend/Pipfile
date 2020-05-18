@@ -37,6 +37,7 @@ six = "==1.14.0"
 urllib3 = "==1.25.7"
 wcwidth = "==0.1.9"
 sportsreference = "*"
+wheel = "*"
 
 [requires]
 python_version = "3.8"

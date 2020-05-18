@@ -85,7 +85,7 @@ def loadNcaafPlayers():
                 for player in roster.players:
                     try:
                         player.dataframe.to_csv(
-                            os.path.join(outputDir, player.player_id, '.csv'))
+                            os.path.join(outputDir, player.player_id + '.csv'), index=False)
                     except:
                         continue
                     bar2.next()
