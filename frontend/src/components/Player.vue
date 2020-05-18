@@ -13,7 +13,7 @@
     <p>
       <a
         :href="'https://www.sports-reference.com/cfb/players/' + this.player.id + '.html'"
-      >Sportsreference page: https://www.sports-reference.com/cfb/players/{{this.player.id}}.html</a>
+      >Sportsreference page</a>
     </p>
     <p></p>
     <p>
@@ -21,7 +21,7 @@
       {{this.player.position}}
     </p>
     <p>
-      <i>Most similar players:</i>
+      <i>Most similar NFL players:</i>
     </p>
 
     <table width="100%">
