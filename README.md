@@ -2,6 +2,18 @@
 
 Collegiate-Level Athlete's Success Projections (bankCLASP) will serve as the Sports Industry's first accurate method of projecting the potential NFL success of current college football players.
 
+## Setup and Instructions
+
+### Backend
+
+- Dependencies are managed through [Pipenv](https://pipenv.pypa.io/en/latest/)
+- Basic Workflow is Data Gatherer -> Dataset Loader (Dump to CSV) -> ML Algs
+
+### Frontend
+
+- Dependencies are managed through [Yarn](https://classic.yarnpkg.com/en/)
+- `yarn serve` for development, `yarn build` for production.
+
 ## Languages and Tools
 
 - Web Frontend in [Vue](https://vuejs.org/)
